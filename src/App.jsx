@@ -12,7 +12,7 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="flex min-h-screen min-w-full bg-slate-100 p-5">
+      <div className="min-h-screen min-w-full bg-slate-100 p-5">
         <LandingPage />
       </div>
     </ThemeProvider>
