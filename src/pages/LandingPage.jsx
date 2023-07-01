@@ -2,6 +2,9 @@ import React from "react";
 import ShrimpImage from "../assets/shrimp.svg";
 import AppButton from "../components/AppButton";
 import ItemCard from "../components/ItemCard";
+import SubHeader from "../components/SubHeader";
+import Header from "../components/Header";
+import ImageCard from "../components/ImageCard";
 
 const LandingPage = () => {
   return (
@@ -29,23 +32,37 @@ const LandingPage = () => {
           alt="heroImage"
         />
       </div>
-      <div className="flex flex-col min-w-full gap-3 justify-center items-center overflow-clip scroll-smooth">
-        <h1 className="text-2xl text-center font-semibold text-slate-700">
+      <div className="flex flex-col min-w-full gap-5 justify-center items-center overflow-clip scroll-smooth">
+        <Header className="text-2xl text-center font-semibold text-slate-700">
           Popular Recipes You Can't Miss
-        </h1>
-        <p className="text-regular text-center text-slate-500">
+        </Header>
+        <SubHeader>
           From Comfort food classics to exotic flavours, our featured recipes
           are sure to impress
-        </p>
+        </SubHeader>
         <div className="flex gap-3 overflow-x-auto max-w-full">
           <ItemCard />
           <ItemCard />
           <ItemCard />
           <ItemCard />
         </div>
+        <div className="flex flex-col gap-3">
+          <Header className="text-2xl text-center font-semibold text-slate-700">
+            Explore by Cuisine Type
+          </Header>
+          <SubHeader>
+            Discover new flavours and cooking techniques with our diverse
+            selection of cuisine types
+          </SubHeader>
+          <div className="flex gap-3 max-w-full overflow-x-auto">
+            <ImageCard />
+            <ImageCard />
+            <ImageCard />
+            <ImageCard />
+          </div>
+        </div>
       </div>
     </div>
   );
 };
-
 export default LandingPage;
