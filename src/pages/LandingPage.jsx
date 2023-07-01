@@ -1,5 +1,10 @@
 import React from "react";
 import ShrimpImage from "../assets/shrimp.svg";
+import SaladImage from "../assets/temp/Salad.jpg";
+import PancakeImage from "../assets/temp/Pancakes.jpg";
+import CakeImage from "../assets/temp/Cake.jpg";
+import CocktailImage from "../assets/temp/Cocktail.jpg";
+
 import AppButton from "../components/AppButton";
 import ItemCard from "../components/ItemCard";
 import SubHeader from "../components/SubHeader";
@@ -51,10 +56,10 @@ const LandingPage = () => {
             selection of cuisine types
           </SubHeader>
           <div className="flex gap-3 max-w-full overflow-x-auto">
-            <ImageCard />
-            <ImageCard />
-            <ImageCard />
-            <ImageCard />
+            <ImageCard image={SaladImage} title="Salads" />
+            <ImageCard image={PancakeImage} title="Pancakes" />
+            <ImageCard image={CakeImage} title="Cakes" />
+            <ImageCard image={CocktailImage} title="Cocktails" />
           </div>
         </div>
       </div>
