@@ -33,9 +33,7 @@ const LandingPage = () => {
         />
       </div>
       <div className="flex flex-col min-w-full gap-5 justify-center items-center overflow-clip scroll-smooth">
-        <Header className="text-2xl text-center font-semibold text-slate-700">
-          Popular Recipes You Can't Miss
-        </Header>
+        <Header>Popular Recipes You Can't Miss</Header>
         <SubHeader>
           From Comfort food classics to exotic flavours, our featured recipes
           are sure to impress
@@ -47,9 +45,7 @@ const LandingPage = () => {
           <ItemCard />
         </div>
         <div className="flex flex-col gap-3">
-          <Header className="text-2xl text-center font-semibold text-slate-700">
-            Explore by Cuisine Type
-          </Header>
+          <Header>Explore by Cuisine Type</Header>
           <SubHeader>
             Discover new flavours and cooking techniques with our diverse
             selection of cuisine types
@@ -61,6 +57,17 @@ const LandingPage = () => {
             <ImageCard />
           </div>
         </div>
+      </div>
+      <div className="min-w-full flex flex-col justify-center items-center gap-2 md:gap-9 bg-red-400 p-10 md:p-32 rounded-md">
+        <h1 className="text-3xl lg:text-5xl font-bold text-white">About Us</h1>
+        <p className="text-white text-justify text-md md:text-xl lg:text-2">
+          Discover a world of culinary inspiration at your fingertips. From
+          traditional classics to innovative delights, our app offers a curated
+          collection of mouthwatering recipes. Join a vibrant culinary
+          community, exchange tips, and ignite your cooking passion. <br />
+          Elevate your meals with "Flavorful Bites" – your trusted companion in
+          the kitchen.
+        </p>
       </div>
     </div>
   );
