@@ -4,6 +4,10 @@ import SaladImage from "../assets/temp/Salad.jpg";
 import PancakeImage from "../assets/temp/Pancakes.jpg";
 import CakeImage from "../assets/temp/Cake.jpg";
 import CocktailImage from "../assets/temp/Cocktail.jpg";
+import FishCurryImage from "../assets/temp/FishCurry.jpg";
+import SangarinaImage from "../assets/temp/Sangarina.jpg";
+import FreakShakeImage from "../assets/temp/FreakShake.jpg";
+import WafflesImage from "../assets/temp/Waffles.jpg";
 
 import AppButton from "../components/AppButton";
 import ItemCard from "../components/ItemCard";
@@ -43,11 +47,27 @@ const LandingPage = () => {
           From Comfort food classics to exotic flavours, our featured recipes
           are sure to impress
         </SubHeader>
-        <div className="flex gap-3 overflow-x-auto max-w-full">
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
-          <ItemCard />
+        <div className="flex justify-around gap-3 overflow-x-auto min-w-full max-w-full">
+          <ItemCard
+            image={FishCurryImage}
+            title="Coconut Fish Curry"
+            desc="Indulge in the irresistible allure of coconut curry: a creamy blend of coconut milk, aromatic spices, and mouthwatering ingredients that will leave you craving for more."
+          />
+          <ItemCard
+            image={SangarinaImage}
+            title="Sangarina"
+            desc="Savor the tantalizing flavors of the Sangarina cocktail, a tantalizing blend of fruity sweetness and zesty citrus, perfectly balanced to ignite your taste buds and leave you longing for another sip."
+          />
+          <ItemCard
+            image={FreakShakeImage}
+            title="Freak Shake"
+            desc="Indulge in the velvety decadence of a Chocolate Shake, a sinfully rich and creamy delight that promises to satisfy your sweet cravings and leave you yearning for that smooth chocolatey goodness."
+          />
+          <ItemCard
+            image={WafflesImage}
+            title="Belgian Waffles"
+            desc="Experience pure bliss with Belgian Waffles – golden and crispy on the outside, yet fluffy and tender on the inside – topped with a medley of fresh fruits and drizzled with luscious maple syrup."
+          />
         </div>
         <div className="flex flex-col gap-3">
           <Header>Explore by Cuisine Type</Header>
