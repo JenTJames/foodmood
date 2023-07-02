@@ -1,5 +1,6 @@
 import React from "react";
 import Navlinks from "./Navlinks";
+import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   return (
@@ -7,6 +8,7 @@ const Navbar = () => {
       <h1 className="font-bold text-xl text-red-100 font-serif bg-red-400 rounded-lg p-3">
         Foodmood
       </h1>
+      <SearchBar />
       <Navlinks />
     </div>
   );
