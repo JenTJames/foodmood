@@ -1,10 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Navlink = ({ children }) => {
+const Navlink = ({ children, to }) => {
   return (
-    <li className="text-slate-400 cursor-pointer hover:text-red-400">
+    <NavLink
+      to={to}
+      className={(navData) =>
+        navData.isActive
+          ? "text-red-500 cursor-pointer"
+          : "text-slate-400 cursor-pointer hover:text-red-400"
+      }
+    >
       {children}
-    </li>
+    </NavLink>
   );
 };
 
