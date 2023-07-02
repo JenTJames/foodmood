@@ -14,10 +14,12 @@ import ItemCard from "../components/ItemCard";
 import SubHeader from "../components/SubHeader";
 import Header from "../components/Header";
 import ImageCard from "../components/ImageCard";
+import Navbar from "../components/Navbar";
 
 const LandingPage = () => {
   return (
     <div className="flex flex-col max-w-full overflow-clip gap-10">
+      <Navbar />
       <div className="flex min-h-full min-w-full flex-col justify-center items-center p-5 gap-16 md:flex-row md:justify-around">
         <div className="flex flex-col gap-5 items-center md:items-start">
           <h1 className="font-bold text-5xl md:text-4xl leading-tight lg:text-7xl lg:leading-normal text-slate-700">
