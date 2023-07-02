@@ -18,7 +18,7 @@ const SearchBar = () => {
   return (
     <form className="flex gap-2" onSubmit={searchHandler}>
       <input
-        className="border bg-transparent rounded-lg outline-slate-400 px-3"
+        className="border bg-transparent rounded-lg outline-none font-semibold focus:border-red-400 px-3"
         onChange={searchQueryChangeHandler}
         type="text"
         name="search"
