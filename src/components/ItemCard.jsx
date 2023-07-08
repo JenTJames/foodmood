@@ -16,7 +16,7 @@ const ItemCard = ({ image = null, title, desc }) => {
           alt=""
         />
       )}
-      <h4 className="font-semibold text-slate-800">{title}</h4>
+      <h4 className="font-semibold text-2xl text-slate-800">{title}</h4>
       <p className="text-slate-600 text-justify">{desc}</p>
       <AppButton bold variant="outlined">
         View More
