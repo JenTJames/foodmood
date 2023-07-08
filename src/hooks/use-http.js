@@ -7,12 +7,16 @@ const useHttp = () => {
 
   const fireRequest = useCallback(async (config) => {
     setIsLoading(true);
+    const apiKey = process.env.REACT_APP_API_KEY;
     try {
       const response = await axios({
         method: config.method ? config.method : "GET",
-        url: config.endpoint,
+        url: `${process.env.REACT_APP_API_URL + config.endpoint}`,
+        // url: `${process.env.REACT_APP_TEST_API_URL}`,
         data: config.payload ? config.payload : null,
-        headers: config.headers ? config.headers : null,
+        headers: {
+          "x-api-key": apiKey,
+        },
       });
       return response;
     } catch (error) {
