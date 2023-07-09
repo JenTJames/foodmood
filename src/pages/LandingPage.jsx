@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import ShrimpImage from "../assets/shrimp.svg";
 import SaladImage from "../assets/temp/Salad.jpg";
 import PancakeImage from "../assets/temp/Pancakes.jpg";
@@ -8,6 +9,8 @@ import SangarinaImage from "../assets/temp/Sangarina.jpg";
 import FreakShakeImage from "../assets/temp/FreakShake.jpg";
 import WafflesImage from "../assets/temp/Waffles.jpg";
 
+import useHttp from "../hooks/use-http";
+
 import AppButton from "../components/AppButton";
 import ItemCard from "../components/ItemCard";
 import SubHeader from "../components/SubHeader";
@@ -15,6 +18,27 @@ import Header from "../components/Header";
 import ImageCard from "../components/ImageCard";
 
 const LandingPage = () => {
+  const [randomRecipes, setrandomRecipes] = useState([]);
+
+  const {
+    fireRequest: fetchRandomRecipes,
+    isLoading: isFetchingRandomRecipes,
+    error: fetchRandomRecipesError,
+  } = useHttp();
+
+  useEffect(() => {
+    const getRandomRecipes = async () => {
+      const fetchRandomRecipesConfig = {
+        // endpoint: "/recipes/random?number=4",
+        testUrl: "http://localhost:3001/recipes",
+        isTest: true,
+      };
+      const response = await fetchRandomRecipes(fetchRandomRecipesConfig);
+      if (response.status < 199 && response.status > 299) return;
+      setrandomRecipes(response.data);
+    };
+    getRandomRecipes();
+  }, [fetchRandomRecipes]);
   return (
     <>
       <div className="flex flex-col max-w-full overflow-clip gap-10">
