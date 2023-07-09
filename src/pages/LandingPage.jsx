@@ -4,10 +4,6 @@ import SaladImage from "../assets/temp/Salad.jpg";
 import PancakeImage from "../assets/temp/Pancakes.jpg";
 import CakeImage from "../assets/temp/Cake.jpg";
 import CocktailImage from "../assets/temp/Cocktail.jpg";
-import FishCurryImage from "../assets/temp/FishCurry.jpg";
-import SangarinaImage from "../assets/temp/Sangarina.jpg";
-import FreakShakeImage from "../assets/temp/FreakShake.jpg";
-import WafflesImage from "../assets/temp/Waffles.jpg";
 
 import useHttp from "../hooks/use-http";
 
@@ -82,10 +78,9 @@ const LandingPage = () => {
               </>
             ) : (
               <>
-                <ItemCard image={FishCurryImage} title="Coconut Fish Curry" />
-                <ItemCard image={SangarinaImage} title="Sangarina" />
-                <ItemCard image={FreakShakeImage} title="Freak Shake" />
-                <ItemCard image={WafflesImage} title="Belgian Waffles" />
+                {randomRecipes.map((recipe) => (
+                  <ItemCard image={recipe.image} title={recipe.title} />
+                ))}
               </>
             )}
           </div>
