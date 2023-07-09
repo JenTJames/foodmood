@@ -72,19 +72,22 @@ const LandingPage = () => {
             From Comfort food classics to exotic flavours, our featured recipes
             are sure to impress
           </SubHeader>
-          {isFetchingRandomRecipes && (
-            <div className="flex justify-around gap-3 overflow-x-auto min-w-full max-w-full">
-              <ItemCardSkeleton />
-              <ItemCardSkeleton />
-              <ItemCardSkeleton />
-              <ItemCardSkeleton />
-            </div>
-          )}
           <div className="flex justify-around gap-3 overflow-x-auto min-w-full max-w-full">
-            <ItemCard image={FishCurryImage} title="Coconut Fish Curry" />
-            <ItemCard image={SangarinaImage} title="Sangarina" />
-            <ItemCard image={FreakShakeImage} title="Freak Shake" />
-            <ItemCard image={WafflesImage} title="Belgian Waffles" />
+            {isFetchingRandomRecipes ? (
+              <>
+                <ItemCardSkeleton />
+                <ItemCardSkeleton />
+                <ItemCardSkeleton />
+                <ItemCardSkeleton />
+              </>
+            ) : (
+              <>
+                <ItemCard image={FishCurryImage} title="Coconut Fish Curry" />
+                <ItemCard image={SangarinaImage} title="Sangarina" />
+                <ItemCard image={FreakShakeImage} title="Freak Shake" />
+                <ItemCard image={WafflesImage} title="Belgian Waffles" />
+              </>
+            )}
           </div>
           <div className="flex flex-col gap-3">
             <Header>Explore by Cuisine Type</Header>
