@@ -13,6 +13,7 @@ import ItemCard from "../components/ItemCard";
 import SubHeader from "../components/SubHeader";
 import Header from "../components/Header";
 import ImageCard from "../components/ImageCard";
+import Toast from "../components/Toast";
 
 const LandingPage = () => {
   const [randomRecipes, setrandomRecipes] = useState([]);
@@ -31,13 +32,21 @@ const LandingPage = () => {
         isTest: true,
       };
       const response = await fetchRandomRecipes(fetchRandomRecipesConfig);
-      if (response.status < 199 && response.status > 299) return;
-      setrandomRecipes(response.data);
+      if (!response) return;
+      setrandomRecipes(response?.data);
     };
     getRandomRecipes();
   }, [fetchRandomRecipes]);
   return (
     <>
+      {fetchRandomRecipesError && (
+        <Toast
+          data={{
+            severity: "error",
+            message: "Something went wrong",
+          }}
+        />
+      )}
       <div className="flex flex-col max-w-full overflow-clip gap-10">
         <div className="flex min-h-full min-w-full flex-col justify-center items-center p-5 gap-16 md:flex-row md:justify-around">
           <div className="flex flex-col gap-5 items-center md:items-start">
@@ -79,7 +88,11 @@ const LandingPage = () => {
             ) : (
               <>
                 {randomRecipes.map((recipe) => (
-                  <ItemCard image={recipe.image} title={recipe.title} />
+                  <ItemCard
+                    healthScore={recipe.healthScore}
+                    image={recipe.image}
+                    title={recipe.title}
+                  />
                 ))}
               </>
             )}
