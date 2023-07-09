@@ -1,0 +1,2004 @@
+{
+  "recipes": [
+    {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 7,
+      "gaps": "no",
+      "preparationMinutes": -1,
+      "cookingMinutes": -1,
+      "aggregateLikes": 35,
+      "healthScore": 44,
+      "creditsText": "foodista.com",
+      "sourceName": "foodista.com",
+      "pricePerServing": 295.38,
+      "extendedIngredients": [
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "LIQUID",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "3 tablespoons olive oil",
+          "originalName": "olive oil",
+          "amount": 3,
+          "unit": "tablespoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 11482,
+          "aisle": "Produce",
+          "image": "acorn-squash.jpg",
+          "consistency": "SOLID",
+          "name": "acorn squash",
+          "nameClean": "acorn squash",
+          "original": "3 smalls acorn squash",
+          "originalName": "s acorn squash",
+          "amount": 3,
+          "unit": "small",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "small",
+              "unitLong": "smalls"
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "small",
+              "unitLong": "smalls"
+            }
+          }
+        },
+        {
+          "id": 10020444,
+          "aisle": "Pasta and Rice",
+          "image": "rice-white-long-grain-or-basmatii-cooked.jpg",
+          "consistency": "SOLID",
+          "name": "brown basmati rice",
+          "nameClean": "basmati rice",
+          "original": "1 cup brown basmati rice",
+          "originalName": "brown basmati rice",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 185,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "SOLID",
+          "name": "onion",
+          "nameClean": "onion",
+          "original": "1 small onion",
+          "originalName": "onion",
+          "amount": 1,
+          "unit": "small",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "small",
+              "unitLong": "small"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "small",
+              "unitLong": "small"
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "SOLID",
+          "name": "garlic",
+          "nameClean": "garlic",
+          "original": "2 cloves garlic",
+          "originalName": "garlic",
+          "amount": 2,
+          "unit": "cloves",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            }
+          }
+        },
+        {
+          "id": 5662,
+          "aisle": "Meat",
+          "image": "meat-ground.jpg",
+          "consistency": "SOLID",
+          "name": "ground turkey",
+          "nameClean": "ground turkey",
+          "original": "1 1/4 pounds (or 1 package) lean ground turkey",
+          "originalName": "(or 1 package) lean ground turkey",
+          "amount": 1.25,
+          "unit": "pounds",
+          "meta": ["lean", "(or 1 package)"],
+          "measures": {
+            "us": {
+              "amount": 1.25,
+              "unitShort": "lb",
+              "unitLong": "pounds"
+            },
+            "metric": {
+              "amount": 566.99,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 11266,
+          "aisle": "Produce",
+          "image": "mushrooms.png",
+          "consistency": "SOLID",
+          "name": "baby bella mushrooms",
+          "nameClean": "crimini mushrooms",
+          "original": "1 package baby bella mushrooms",
+          "originalName": "baby bella mushrooms",
+          "amount": 1,
+          "unit": "package",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "pkg",
+              "unitLong": "package"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "pkg",
+              "unitLong": "package"
+            }
+          }
+        },
+        {
+          "id": 10011457,
+          "aisle": "Produce",
+          "image": "spinach.jpg",
+          "consistency": "SOLID",
+          "name": "spinach",
+          "nameClean": "spinach",
+          "original": "1 bag spinach",
+          "originalName": "spinach",
+          "amount": 1,
+          "unit": "bag",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "bag",
+              "unitLong": "bag"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "bag",
+              "unitLong": "bag"
+            }
+          }
+        },
+        {
+          "id": 98990,
+          "aisle": "Spices and Seasonings",
+          "image": "vegeta.png",
+          "consistency": "SOLID",
+          "name": "vegeta seasoning",
+          "nameClean": "vegeta",
+          "original": "2 tablespoons vegeta seasoning",
+          "originalName": "vegeta seasoning",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 10211821,
+          "aisle": "Produce",
+          "image": "bell-pepper-orange.png",
+          "consistency": "SOLID",
+          "name": "bell pepper flakes",
+          "nameClean": "bell pepper",
+          "original": "1/2 teaspoon bell pepper flakes",
+          "originalName": "bell pepper flakes",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1102047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt-and-pepper.jpg",
+          "consistency": "SOLID",
+          "name": "salt and pepper",
+          "nameClean": "salt and pepper",
+          "original": "Salt and pepper",
+          "originalName": "Salt and pepper",
+          "amount": 6,
+          "unit": "servings",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 6,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 6,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 99025,
+          "aisle": "Pasta and Rice",
+          "image": "breadcrumbs.jpg",
+          "consistency": "SOLID",
+          "name": "bread crumbs",
+          "nameClean": "whole wheat breadcrumbs",
+          "original": "1/2 cup whole wheat bread crumbs",
+          "originalName": "whole wheat bread crumbs",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": ["whole wheat"],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 54,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        }
+      ],
+      "id": 663985,
+      "title": "Turkey and Rice Stuffed Acorn Squash",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "sourceUrl": "https://www.foodista.com/recipe/8QRN8DXZ/turkey-and-rice-stuffed-acorn-squash",
+      "image": "https://spoonacular.com/recipeImages/663985-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Turkey and Rice Stuffed Acorn Squash is a main course that serves 6. One portion of this dish contains approximately <b>29g of protein</b>, <b>10g of fat</b>, and a total of <b>411 calories</b>. For <b>$2.95 per serving</b>, this recipe <b>covers 34%</b> of your daily requirements of vitamins and minerals. A mixture of olive oil, bread crumbs, salt and pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. 35 people were impressed by this recipe. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is a good option if you're following a <b>dairy free</b> diet. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 93%</b>, which is awesome. Similar recipes include <a href=\"https://spoonacular.com/recipes/turkey-and-rice-stuffed-acorn-squash-1212335\">Turkey and Rice Stuffed Acorn Squash</a>, <a href=\"https://spoonacular.com/recipes/butternut-squash-noodle-turkey-bolognese-stuffed-acorn-squash-with-melted-gruyere-two-ways-1253607\">Butternut Squash Noodle Turkey Bolognese Stuffed Acorn Squash with Melted Gruyere: Two Ways</a>, and <a href=\"https://spoonacular.com/recipes/butternut-squash-noodle-turkey-bolognese-stuffed-acorn-squash-with-melted-gruyere-two-ways-563828\">Butternut Squash Noodle Turkey Bolognese Stuffed Acorn Squash with Melted Gruyere: Two Ways</a>.",
+      "cuisines": [],
+      "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+      "diets": ["dairy free"],
+      "occasions": [],
+      "instructions": "Prepare rice according to package instructions. (I either cook the rice in chicken stock, or this time I used water and added 1 tablespoon vegeta seasoning to the water to add flavor to the rice as it cooks.)\nMeanwhile preheat oven to 375 degrees. Cut squash in half and drizzle with olive oil, salt and pepper. Roast skin side down for 30 minutes.\nHeat 1 tablespoon olive oil in large skilled. Add diced onions. Cook until translucent. Add garlic and cook for 1 minute longer. Add turkey, 1 tablespoon vegeta, red pepper, salt and pepper. Cook until turkey is browned and almost cooked through. Rough chop the mushrooms and add to the pan. Cook until mushrooms are softened. Add rice and spinach and stir until spinach is just wilted.\nStuff the squash with the meat and rice mixture and top with bread crumbs. (Either toss bread crumbs with 2 teaspoons olive oil, or I just spray them with spray olive oil to make sure that they brown in the oven.\nBake stuffed squash in oven until bread crumbs are browned.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Prepare rice according to package instructions. (I either cook the rice in chicken stock, or this time I used water and added 1 tablespoon vegeta seasoning to the water to add flavor to the rice as it cooks.)",
+              "ingredients": [
+                {
+                  "id": 98990,
+                  "name": "vegeta",
+                  "localizedName": "vegeta",
+                  "image": "vegeta.png"
+                },
+                {
+                  "id": 6172,
+                  "name": "chicken stock",
+                  "localizedName": "chicken stock",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                },
+                {
+                  "id": 20444,
+                  "name": "rice",
+                  "localizedName": "rice",
+                  "image": "uncooked-white-rice.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 2,
+              "step": "Meanwhile preheat oven to 375 degrees.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "Cut squash in half and drizzle with olive oil, salt and pepper. Roast skin side down for 30 minutes.",
+              "ingredients": [
+                {
+                  "id": 1102047,
+                  "name": "salt and pepper",
+                  "localizedName": "salt and pepper",
+                  "image": "salt-and-pepper.jpg"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 10011485,
+                  "name": "squash",
+                  "localizedName": "squash",
+                  "image": "butternut-squash.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 30,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 4,
+              "step": "Heat 1 tablespoon olive oil in large skilled.",
+              "ingredients": [
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Add diced onions. Cook until translucent.",
+              "ingredients": [
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 6,
+              "step": "Add garlic and cook for 1 minute longer.",
+              "ingredients": [
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 1,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 7,
+              "step": "Add turkey, 1 tablespoon vegeta, red pepper, salt and pepper. Cook until turkey is browned and almost cooked through. Rough chop the mushrooms and add to the pan. Cook until mushrooms are softened.",
+              "ingredients": [
+                {
+                  "id": 1102047,
+                  "name": "salt and pepper",
+                  "localizedName": "salt and pepper",
+                  "image": "salt-and-pepper.jpg"
+                },
+                {
+                  "id": 11821,
+                  "name": "red pepper",
+                  "localizedName": "red pepper",
+                  "image": "red-pepper.jpg"
+                },
+                {
+                  "id": 11260,
+                  "name": "mushrooms",
+                  "localizedName": "mushrooms",
+                  "image": "mushrooms.png"
+                },
+                {
+                  "id": 5165,
+                  "name": "whole turkey",
+                  "localizedName": "whole turkey",
+                  "image": "turkey-raw-whole.jpg"
+                },
+                {
+                  "id": 98990,
+                  "name": "vegeta",
+                  "localizedName": "vegeta",
+                  "image": "vegeta.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "step": "Add rice and spinach and stir until spinach is just wilted.",
+              "ingredients": [
+                {
+                  "id": 10011457,
+                  "name": "spinach",
+                  "localizedName": "spinach",
+                  "image": "spinach.jpg"
+                },
+                {
+                  "id": 20444,
+                  "name": "rice",
+                  "localizedName": "rice",
+                  "image": "uncooked-white-rice.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 9,
+              "step": "Stuff the squash with the meat and rice mixture and top with bread crumbs. (Either toss bread crumbs with 2 teaspoons olive oil, or I just spray them with spray olive oil to make sure that they brown in the oven.",
+              "ingredients": [
+                {
+                  "id": 18079,
+                  "name": "breadcrumbs",
+                  "localizedName": "breadcrumbs",
+                  "image": "breadcrumbs.jpg"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 10011485,
+                  "name": "squash",
+                  "localizedName": "squash",
+                  "image": "butternut-squash.jpg"
+                },
+                {
+                  "id": 1065062,
+                  "name": "meat",
+                  "localizedName": "meat",
+                  "image": "whole-chicken.jpg"
+                },
+                {
+                  "id": 20444,
+                  "name": "rice",
+                  "localizedName": "rice",
+                  "image": "uncooked-white-rice.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            },
+            {
+              "number": 10,
+              "step": "Bake stuffed squash in oven until bread crumbs are browned.",
+              "ingredients": [
+                {
+                  "id": 18079,
+                  "name": "breadcrumbs",
+                  "localizedName": "breadcrumbs",
+                  "image": "breadcrumbs.jpg"
+                },
+                {
+                  "id": 10011485,
+                  "name": "squash",
+                  "localizedName": "squash",
+                  "image": "butternut-squash.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/turkey-and-rice-stuffed-acorn-squash-663985"
+    },
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 19,
+      "gaps": "no",
+      "preparationMinutes": -1,
+      "cookingMinutes": -1,
+      "aggregateLikes": 4,
+      "healthScore": 3,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 92.61,
+      "extendedIngredients": [
+        {
+          "id": 20140,
+          "aisle": "Pasta and Rice;Health Foods",
+          "image": "farro-or-spelt.jpg",
+          "consistency": "SOLID",
+          "name": "spelt",
+          "nameClean": "spelt",
+          "original": "2 cups spelt",
+          "originalName": "spelt",
+          "amount": 2,
+          "unit": "cups",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 348,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1145,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "SOLID",
+          "name": "butter",
+          "nameClean": "unsalted butter",
+          "original": "½ cup unsalted butter",
+          "originalName": "unsalted butter",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": ["unsalted"],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 113.5,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 14209,
+          "aisle": "Tea and Coffee",
+          "image": "brewed-coffee.jpg",
+          "consistency": "SOLID",
+          "name": "warm coffee",
+          "nameClean": "coffee",
+          "original": "1 cup warm coffee",
+          "originalName": "warm coffee",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 237,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 14214,
+          "aisle": "Tea and Coffee",
+          "image": "instant-coffee-or-instant-espresso.png",
+          "consistency": "SOLID",
+          "name": "coffee",
+          "nameClean": "instant coffee",
+          "original": "1 tablespoon instant coffee",
+          "originalName": "instant coffee",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": ["instant"],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 1052050,
+          "aisle": "Baking",
+          "image": "vanilla.jpg",
+          "consistency": "SOLID",
+          "name": "vanilla",
+          "nameClean": "vanilla",
+          "original": "1 tsp. vanilla",
+          "originalName": "vanilla",
+          "amount": 1,
+          "unit": "tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 18372,
+          "aisle": "Baking",
+          "image": "white-powder.jpg",
+          "consistency": "SOLID",
+          "name": "baking soda",
+          "nameClean": "baking soda",
+          "original": "1 tsp. baking soda",
+          "originalName": "baking soda",
+          "amount": 1,
+          "unit": "tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 2047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt.jpg",
+          "consistency": "SOLID",
+          "name": "salt",
+          "nameClean": "table salt",
+          "original": "¾ tsp. salt",
+          "originalName": "salt",
+          "amount": 0.75,
+          "unit": "tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.75,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.75,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 19334,
+          "aisle": "Baking",
+          "image": "light-brown-sugar.jpg",
+          "consistency": "SOLID",
+          "name": "brown sugar",
+          "nameClean": "golden brown sugar",
+          "original": "½ cup brown sugar",
+          "originalName": "brown sugar",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 110,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 10719335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "SOLID",
+          "name": "sugar",
+          "nameClean": "granulated sugar",
+          "original": "½ cup white sugar",
+          "originalName": "white sugar",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": ["white"],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 100,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1123,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "egg.png",
+          "consistency": "SOLID",
+          "name": "eggs",
+          "nameClean": "egg",
+          "original": "2 eggs",
+          "originalName": "eggs",
+          "amount": 2,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 10093831,
+          "aisle": "Baking",
+          "image": "coconut-sugar.jpg",
+          "consistency": "SOLID",
+          "name": "coco powder",
+          "nameClean": "coconut sugar",
+          "original": "¾ cup instant hot coco powder",
+          "originalName": "instant hot coco powder",
+          "amount": 0.75,
+          "unit": "cup",
+          "meta": ["hot", "instant"],
+          "measures": {
+            "us": {
+              "amount": 0.75,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 120,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1056,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "sour-cream.jpg",
+          "consistency": "SOLID",
+          "name": "cream",
+          "nameClean": "sour cream",
+          "original": "½ cup sour cream",
+          "originalName": "sour cream",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": ["sour"],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 115,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 9085,
+          "aisle": "Dried Fruits;Produce",
+          "image": "blueberries-dried.jpg",
+          "consistency": "SOLID",
+          "name": "currants",
+          "nameClean": "dried currants",
+          "original": "½ cup currants or raisins",
+          "originalName": "currants or raisins",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 72,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        }
+      ],
+      "id": 639209,
+      "title": "Chocolate Spelt Cake",
+      "readyInMinutes": 45,
+      "servings": 8,
+      "sourceUrl": "https://www.foodista.com/recipe/B6XNBWP6/chocolate-spelt-cake",
+      "image": "https://spoonacular.com/recipeImages/639209-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Chocolate Spelt Cake takes about <b>45 minutes</b> from beginning to end. For <b>93 cents per serving</b>, this recipe <b>covers 12%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains about <b>9g of protein</b>, <b>16g of fat</b>, and a total of <b>472 calories</b>. This recipe serves 8. A mixture of brown sugar, baking soda, coffee, and a handful of other ingredients are all it takes to make this recipe so tasty. 4 people were impressed by this recipe. It is brought to you by Foodista. It works well as a dessert. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 34%</b>. This score is rather bad. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/chocolate-espresso-spelt-cake-64843\">Chocolate Espresso Spelt Cake</a>, <a href=\"https://spoonacular.com/recipes/persimmon-cake-with-whole-spelt-flour-556429\">Persimmon cake with whole spelt flour</a>, and <a href=\"https://spoonacular.com/recipes/banana-spelt-quinoa-muffins-or-cake-125255\">Banana, Spelt, Quinoa Muffins (Or Cake)</a>.",
+      "cuisines": [],
+      "dishTypes": ["dessert"],
+      "diets": ["lacto ovo vegetarian"],
+      "occasions": [],
+      "instructions": "Preheat Oven 350 degrees:\nAdd tablespoon of instant coffee to the warm coffee along with the vanilla, baking soda and currants; and stir till frothy.\nCombine in a medium bowl the spelt, instant coco and salt.\nIn a mix-master beat the butter, brown sugar and white sugar and mix until smooth.  Add the eggs and continue to mix; slowly add the coffee mixture and continue to mix.\nWhile still mixing on low add the spelt mixture and mix.\nPrepare a bundt pan with butter all around and then dust all over with the instant coco.\nBake 50  55 minutes or until tooth pick test comes out clean.\nLet the cake cool a bit before trying to remove from pan.",
+      "analyzedInstructions": [
+        {
+          "name": "Preheat Oven 350 degrees",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Add tablespoon of instant coffee to the warm coffee along with the vanilla, baking soda and currants; and stir till frothy.",
+              "ingredients": [
+                {
+                  "id": 14214,
+                  "name": "instant coffee",
+                  "localizedName": "instant coffee",
+                  "image": "instant-coffee-or-instant-espresso.png"
+                },
+                {
+                  "id": 18372,
+                  "name": "baking soda",
+                  "localizedName": "baking soda",
+                  "image": "white-powder.jpg"
+                },
+                {
+                  "id": 9085,
+                  "name": "currants",
+                  "localizedName": "currants",
+                  "image": "currants.jpg"
+                },
+                {
+                  "id": 1052050,
+                  "name": "vanilla",
+                  "localizedName": "vanilla",
+                  "image": "vanilla.jpg"
+                },
+                {
+                  "id": 14209,
+                  "name": "coffee",
+                  "localizedName": "coffee",
+                  "image": "brewed-coffee.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 2,
+              "step": "Combine in a medium bowl the spelt, instant coco and salt.",
+              "ingredients": [
+                {
+                  "id": 20140,
+                  "name": "spelt",
+                  "localizedName": "spelt",
+                  "image": "farro-or-spelt.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "In a mix-master beat the butter, brown sugar and white sugar and mix until smooth.",
+              "ingredients": [
+                {
+                  "id": 19334,
+                  "name": "brown sugar",
+                  "localizedName": "brown sugar",
+                  "image": "dark-brown-sugar.png"
+                },
+                {
+                  "id": 10719335,
+                  "name": "granulated sugar",
+                  "localizedName": "granulated sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Add the eggs and continue to mix; slowly add the coffee mixture and continue to mix.",
+              "ingredients": [
+                {
+                  "id": 14209,
+                  "name": "coffee",
+                  "localizedName": "coffee",
+                  "image": "brewed-coffee.jpg"
+                },
+                {
+                  "id": 1123,
+                  "name": "egg",
+                  "localizedName": "egg",
+                  "image": "egg.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "While still mixing on low add the spelt mixture and mix.",
+              "ingredients": [
+                {
+                  "id": 20140,
+                  "name": "spelt",
+                  "localizedName": "spelt",
+                  "image": "farro-or-spelt.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 6,
+              "step": "Prepare a bundt pan with butter all around and then dust all over with the instant coco.",
+              "ingredients": [
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404748,
+                  "name": "kugelhopf pan",
+                  "localizedName": "kugelhopf pan",
+                  "image": "bundt-cake-pan.jpg"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "step": "Bake 50  55 minutes or until tooth pick test comes out clean.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 55,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 8,
+              "step": "Let the cake cool a bit before trying to remove from pan.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/chocolate-spelt-cake-639209"
+    },
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 1,
+      "gaps": "no",
+      "preparationMinutes": -1,
+      "cookingMinutes": -1,
+      "aggregateLikes": 5,
+      "healthScore": 0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 26.65,
+      "extendedIngredients": [
+        {
+          "id": 18337,
+          "aisle": "Refrigerated;Frozen",
+          "image": "puff-pastry.png",
+          "consistency": "SOLID",
+          "name": "puff pastry",
+          "nameClean": "puff pastry dough",
+          "original": "1 pkg puff pastry (2 sheets)",
+          "originalName": "pkg puff pastry (2 sheets)",
+          "amount": 1,
+          "unit": "pkg sheets",
+          "meta": ["(2 sheets)"],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "pkg sheets",
+              "unitLong": "pkg sheet"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "pkg sheets",
+              "unitLong": "pkg sheet"
+            }
+          }
+        },
+        {
+          "id": 1006,
+          "aisle": "Cheese",
+          "image": "brie.jpg",
+          "consistency": "SOLID",
+          "name": "brie log",
+          "nameClean": "brie",
+          "original": "1- 6 oz brie log, cut into 24 even slices",
+          "originalName": "brie log, cut into 24 even slices",
+          "amount": 6,
+          "unit": "oz",
+          "meta": ["cut into 24 even slices"],
+          "measures": {
+            "us": {
+              "amount": 6,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 170.097,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 9094,
+          "aisle": "Dried Fruits;Produce",
+          "image": "figs-dried.jpg",
+          "consistency": "SOLID",
+          "name": "figs",
+          "nameClean": "dried figs",
+          "original": "9 oz dried figs, sliced thin",
+          "originalName": "dried figs, sliced thin",
+          "amount": 9,
+          "unit": "oz",
+          "meta": ["dried", "sliced", "thin"],
+          "measures": {
+            "us": {
+              "amount": 9,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 255.146,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 9016,
+          "aisle": "Beverages",
+          "image": "apple-juice.jpg",
+          "consistency": "LIQUID",
+          "name": "apple juice",
+          "nameClean": "apple juice",
+          "original": "1 apple juice",
+          "originalName": "apple juice",
+          "amount": 1,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "SOLID",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "1/2 cup sugar",
+          "originalName": "sugar",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 100,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 9152,
+          "aisle": "Produce",
+          "image": "lemon-juice.jpg",
+          "consistency": "LIQUID",
+          "name": "juice of lemon",
+          "nameClean": "lemon juice",
+          "original": "juice of 1 lemon",
+          "originalName": "juice of lemon",
+          "amount": 1,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        }
+      ],
+      "id": 636098,
+      "title": "Brie Bundles with Homemade Fig Jam",
+      "readyInMinutes": 45,
+      "servings": 24,
+      "sourceUrl": "https://www.foodista.com/recipe/K7LK36CV/brie-bundles-with-homemade-fig-jam",
+      "image": "https://spoonacular.com/recipeImages/636098-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "The recipe Brie Bundles with Homemade Fig Jam can be made <b>in approximately 45 minutes</b>. This recipe serves 24 and costs 27 cents per serving. This hor d'oeuvre has <b>67 calories</b>, <b>2g of protein</b>, and <b>2g of fat</b> per serving. 5 people have made this recipe and would make it again. A mixture of puff pastry, juice of lemon, figs, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. It is brought to you by Foodista. With a spoonacular <b>score of 18%</b>, this dish is rather bad. <a href=\"https://spoonacular.com/recipes/fig-jam-and-brie-crostini-appetizer-1039241\">Fig Jam and Brie Crostini Appetizer</a>, <a href=\"https://spoonacular.com/recipes/crostini-with-cranberry-fig-jam-and-brie-1691567\">Crostini with Cranberry Fig Jam and Brie</a>, and <a href=\"https://spoonacular.com/recipes/honey-baked-brie-with-fig-jam-and-walnuts-1572023\">Honey Baked Brie with Fig Jam and Walnuts</a> are very similar to this recipe.",
+      "cuisines": [],
+      "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+      ],
+      "diets": ["lacto ovo vegetarian"],
+      "occasions": [],
+      "instructions": "Oven at 375 degrees.\nLets make the fabulous fig jam! Into a small saucepan, over low heat, add in the figs, apple juice, sugar and lemon juice. Simmer for 15-20 minutes, until the figs are softened and the mixture has thickened a bit.\nUsing either an immersion blender of food processor, puree the jam until the large pieces of fig are broken down and the jam is relatively smooth but the seeds still visible. Allow the jam to cool.\nUnroll the two sheets of puff pastry out on a piece of parchment and cut into 12 even squares. Place a piece of brie and a small spoonful of the fig jam to the center of each square.\nFold each corner to the center, don't worry about them all looking exactly the same. Be sure to pinch the edges closed.\nPlace the bundles onto a parchment lined baking sheet. Bake for approx 15-18 minutes or until golden.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Oven at 375 degrees.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Lets make the fabulous fig jam! Into a small saucepan, over low heat, add in the figs, apple juice, sugar and lemon juice. Simmer for 15-20 minutes, until the figs are softened and the mixture has thickened a bit.",
+              "ingredients": [
+                {
+                  "id": 9016,
+                  "name": "apple juice",
+                  "localizedName": "apple juice",
+                  "image": "apple-juice.jpg"
+                },
+                {
+                  "id": 9152,
+                  "name": "lemon juice",
+                  "localizedName": "lemon juice",
+                  "image": "lemon-juice.jpg"
+                },
+                {
+                  "id": 11519297,
+                  "name": "fig jam",
+                  "localizedName": "fig jam",
+                  "image": "fig-preserves.jpg"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 9089,
+                  "name": "figs",
+                  "localizedName": "figs",
+                  "image": "figs-fresh.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404669,
+                  "name": "sauce pan",
+                  "localizedName": "sauce pan",
+                  "image": "sauce-pan.jpg"
+                }
+              ],
+              "length": {
+                "number": 20,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Using either an immersion blender of food processor, puree the jam until the large pieces of fig are broken down and the jam is relatively smooth but the seeds still visible. Allow the jam to cool.",
+              "ingredients": [
+                {
+                  "id": 93818,
+                  "name": "seeds",
+                  "localizedName": "seeds",
+                  "image": "sunflower-seeds.jpg"
+                },
+                {
+                  "id": 9089,
+                  "name": "figs",
+                  "localizedName": "figs",
+                  "image": "figs-fresh.jpg"
+                },
+                {
+                  "id": 19297,
+                  "name": "jam",
+                  "localizedName": "jam",
+                  "image": "strawberry-jam.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404776,
+                  "name": "immersion blender",
+                  "localizedName": "immersion blender",
+                  "image": "immersion-blender.png"
+                },
+                {
+                  "id": 404771,
+                  "name": "food processor",
+                  "localizedName": "food processor",
+                  "image": "food-processor.png"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Unroll the two sheets of puff pastry out on a piece of parchment and cut into 12 even squares.",
+              "ingredients": [
+                {
+                  "id": 18337,
+                  "name": "puff pastry sheets",
+                  "localizedName": "puff pastry sheets",
+                  "image": "puff-pastry.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Place a piece of brie and a small spoonful of the fig jam to the center of each square.",
+              "ingredients": [
+                {
+                  "id": 11519297,
+                  "name": "fig jam",
+                  "localizedName": "fig jam",
+                  "image": "fig-preserves.jpg"
+                },
+                {
+                  "id": 1006,
+                  "name": "brie",
+                  "localizedName": "brie",
+                  "image": "brie.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 6,
+              "step": "Fold each corner to the center, don't worry about them all looking exactly the same. Be sure to pinch the edges closed.",
+              "ingredients": [],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Place the bundles onto a parchment lined baking sheet.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "step": "Bake for approx 15-18 minutes or until golden.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 18,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/brie-bundles-with-homemade-fig-jam-636098"
+    },
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "lowFodmap": false,
+      "weightWatcherSmartPoints": 11,
+      "gaps": "no",
+      "preparationMinutes": -1,
+      "cookingMinutes": -1,
+      "aggregateLikes": 2,
+      "healthScore": 1,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 39.51,
+      "extendedIngredients": [
+        {
+          "id": 20081,
+          "aisle": "Baking",
+          "image": "flour.png",
+          "consistency": "SOLID",
+          "name": "all purpose flour",
+          "nameClean": "wheat flour",
+          "original": "1 2/3 cups of all purpose flour",
+          "originalName": "all purpose flour",
+          "amount": 1.6666666,
+          "unit": "cups",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1.6666666,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 208.333,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 19165,
+          "aisle": "Baking",
+          "image": "cocoa-powder.png",
+          "consistency": "SOLID",
+          "name": "cocoa powder",
+          "nameClean": "cacao powder",
+          "original": "cup of cocoa powder",
+          "originalName": "cocoa powder",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 86,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1012047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt.jpg",
+          "consistency": "SOLID",
+          "name": "sea salt",
+          "nameClean": "coarse sea salt",
+          "original": "1/2 teaspoon sea salt ( I used 1 tsp. )",
+          "originalName": "sea salt ( I used 1 tsp. )",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": ["( I used 1 tsp. )"],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1001,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "SOLID",
+          "name": "butter",
+          "nameClean": "butter",
+          "original": "1 cup ( 2 sticks ) of butter Cut into pieces",
+          "originalName": "cup ) of butter Cut into pieces",
+          "amount": 2,
+          "unit": "sticks",
+          "meta": ["cut into pieces"],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "sticks",
+              "unitLong": "sticks"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "sticks",
+              "unitLong": "sticks"
+            }
+          }
+        },
+        {
+          "id": 19078,
+          "aisle": "Baking",
+          "image": "baking-chocolate.jpg",
+          "consistency": "SOLID",
+          "name": "chocolate",
+          "nameClean": "unsweetened baking chocolate",
+          "original": "6 ounces of chopped, unsweetened chocolate",
+          "originalName": "chopped, unsweetened chocolate",
+          "amount": 6,
+          "unit": "ounces",
+          "meta": ["unsweetened", "chopped"],
+          "measures": {
+            "us": {
+              "amount": 6,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 170.097,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "SOLID",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "3 cups cups of sugar ( I reduced mine by ½ )",
+          "originalName": "cups of sugar ( I reduced mine by ½ )",
+          "amount": 3,
+          "unit": "cups",
+          "meta": ["( I reduced mine by)"],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 600,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 2050,
+          "aisle": "Baking",
+          "image": "vanilla-extract.jpg",
+          "consistency": "LIQUID",
+          "name": "vanilla extract",
+          "nameClean": "vanilla extract",
+          "original": "2 teaspoons vanilla extract ( I used Kahlua )",
+          "originalName": "vanilla extract ( I used Kahlua )",
+          "amount": 2,
+          "unit": "teaspoons",
+          "meta": ["( I used Kahlua )"],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2064,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "mint.jpg",
+          "consistency": "SOLID",
+          "name": "mint oreos",
+          "nameClean": "mint",
+          "original": "3 cups of roughly chopped mint Oreos ( about 18 )",
+          "originalName": "cups of roughly chopped mint Oreos ( about )",
+          "amount": 18,
+          "unit": "",
+          "meta": ["roughly chopped"],
+          "measures": {
+            "us": {
+              "amount": 18,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 18,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 1123,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "egg.png",
+          "consistency": "SOLID",
+          "name": "eggs",
+          "nameClean": "egg",
+          "original": "4 eggs ( I used 3 )",
+          "originalName": "eggs ( I used 3 )",
+          "amount": 4,
+          "unit": "",
+          "meta": ["( I used 3 )"],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 4,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        }
+      ],
+      "id": 652017,
+      "title": "Mint Oreo Brownies",
+      "readyInMinutes": 45,
+      "servings": 25,
+      "sourceUrl": "https://www.foodista.com/recipe/RNCK4LWH/mint-oreo-brownies",
+      "image": "https://spoonacular.com/recipeImages/652017-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Mint Oreo Brownies is a <b>lacto ovo vegetarian</b> dessert. One serving contains <b>241 calories</b>, <b>3g of protein</b>, and <b>12g of fat</b>. This recipe serves 25 and costs 40 cents per serving. 2 people found this recipe to be delicious and satisfying. A mixture of all purpose flour, vanillan extract, butter, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It is a <b>very affordable</b> recipe for fans of American food. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 21%</b>, which is rather bad. Similar recipes include <a href=\"https://spoonacular.com/recipes/mint-oreo-brownies-491086\">Mint Oreo Brownies</a>, <a href=\"https://spoonacular.com/recipes/mint-oreo-brownies-1184111\">Mint Oreo Brownies</a>, and <a href=\"https://spoonacular.com/recipes/cool-mint-oreo-stuffed-fudgy-brownies-535371\">Cool Mint Oreo Stuffed Fudgy Brownies</a>.",
+      "cuisines": ["American"],
+      "dishTypes": ["dessert"],
+      "diets": ["lacto ovo vegetarian"],
+      "occasions": [],
+      "instructions": "Preheat the oven to 350F. Line a 9x13 pan with foil.\nIn a small bowl. Sift together the flour and cocoa powder.\nWhisk in the sea salt and set aside.\nIn a medium saucepan. Melt the butter and unsweetened chopped chocolate until all the chocolate is melted and the mixture is smooth.\nStir in the sugar and vanilla.\nRemove from heat. It will look 'grainy' because of the sugar but don't worry. Whisk/stir in the eggs one at a time. Beat well after each addition. You should now have a smooth, satin-like mixture.\nAdd the flour/cocoa and stir until uniform.\nStir in the Oreos.\nPour into prepared pan.\nCrush some extra cookies over the top.\nBake for about 35 minutes. A tester should be free of any batter but have a few moist crumbs.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Preheat the oven to 350F. Line a 9x13 pan with foil.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404765,
+                  "name": "aluminum foil",
+                  "localizedName": "aluminum foil",
+                  "image": "aluminum-foil.png"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg",
+                  "temperature": {
+                    "number": 350,
+                    "unit": "Fahrenheit"
+                  }
+                },
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "In a small bowl. Sift together the flour and cocoa powder.",
+              "ingredients": [
+                {
+                  "id": 19165,
+                  "name": "cocoa powder",
+                  "localizedName": "cocoa powder",
+                  "image": "cocoa-powder.png"
+                },
+                {
+                  "id": 20081,
+                  "name": "all purpose flour",
+                  "localizedName": "all purpose flour",
+                  "image": "flour.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "Whisk in the sea salt and set aside.",
+              "ingredients": [
+                {
+                  "id": 1012047,
+                  "name": "sea salt",
+                  "localizedName": "sea salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404661,
+                  "name": "whisk",
+                  "localizedName": "whisk",
+                  "image": "whisk.png"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "In a medium saucepan. Melt the butter and unsweetened chopped chocolate until all the chocolate is melted and the mixture is smooth.",
+              "ingredients": [
+                {
+                  "id": 19081,
+                  "name": "chocolate",
+                  "localizedName": "chocolate",
+                  "image": "milk-chocolate.jpg"
+                },
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404669,
+                  "name": "sauce pan",
+                  "localizedName": "sauce pan",
+                  "image": "sauce-pan.jpg"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "step": "Stir in the sugar and vanilla.",
+              "ingredients": [
+                {
+                  "id": 1052050,
+                  "name": "vanilla",
+                  "localizedName": "vanilla",
+                  "image": "vanilla.jpg"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 6,
+              "step": "Remove from heat. It will look 'grainy' because of the sugar but don't worry.",
+              "ingredients": [
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Whisk/stir in the eggs one at a time. Beat well after each addition. You should now have a smooth, satin-like mixture.",
+              "ingredients": [
+                {
+                  "id": 1123,
+                  "name": "egg",
+                  "localizedName": "egg",
+                  "image": "egg.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404661,
+                  "name": "whisk",
+                  "localizedName": "whisk",
+                  "image": "whisk.png"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "step": "Add the flour/cocoa and stir until uniform.",
+              "ingredients": [
+                {
+                  "id": 19165,
+                  "name": "cocoa powder",
+                  "localizedName": "cocoa powder",
+                  "image": "cocoa-powder.png"
+                },
+                {
+                  "id": 20081,
+                  "name": "all purpose flour",
+                  "localizedName": "all purpose flour",
+                  "image": "flour.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 9,
+              "step": "Stir in the Oreos.",
+              "ingredients": [
+                {
+                  "id": 10018166,
+                  "name": "oreo cookies",
+                  "localizedName": "oreo cookies",
+                  "image": "oreos.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 10,
+              "step": "Pour into prepared pan.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "step": "Crush some extra cookies over the top.",
+              "ingredients": [
+                {
+                  "id": 10118192,
+                  "name": "cookies",
+                  "localizedName": "cookies",
+                  "image": "shortbread-cookies.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 12,
+              "step": "Bake for about 35 minutes. A tester should be free of any batter but have a few moist crumbs.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 35,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/mint-oreo-brownies-652017"
+    }
+  ]
+}
