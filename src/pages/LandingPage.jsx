@@ -77,8 +77,8 @@ const LandingPage = () => {
             From Comfort food classics to exotic flavours, our featured recipes
             are sure to impress
           </SubHeader>
-          <div className="flex justify-around gap-3 overflow-x-auto min-w-full max-w-full">
-            {isFetchingRandomRecipes ? (
+          <div className="flex gap-3 overflow-x-auto max-w-full">
+            {isFetchingRandomRecipes || randomRecipes.length === 0 ? (
               <>
                 <ItemCardSkeleton />
                 <ItemCardSkeleton />
@@ -89,6 +89,7 @@ const LandingPage = () => {
               <>
                 {randomRecipes.map((recipe) => (
                   <ItemCard
+                    key={recipe.id}
                     healthScore={recipe.healthScore}
                     image={recipe.image}
                     title={recipe.title}
